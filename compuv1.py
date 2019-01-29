@@ -3,6 +3,9 @@ import re
 import numpy as np
 import itertools
 import math
+import string
+
+
 
 def transform_to_float(list):
     neg = 1
@@ -353,7 +356,7 @@ def special_case(list_args):
             print "Impossible"
             return 1
         elif list_args[1] == 1:
-            print "Tous les solutions dans R"
+            print "solution est 0"
             return 1
         elif list_args[1] == 2:
             print "Solution est 0"
